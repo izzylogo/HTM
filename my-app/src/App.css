@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600&display=swap');
+
+
 .App {
   text-align: center;
   background-repeat: no-repeat;
   height: 100vh;
+  font-family: Urbanist ;
   /* padding-bottom: 200px; */
   background: linear-gradient(90deg, #74c6df, #65b3d0, #0a99cd, #37b4d6, #83c4ea );
   background-size: 500% 500%;

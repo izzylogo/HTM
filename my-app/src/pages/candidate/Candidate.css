@@ -1,0 +1,10 @@
+.cand-contain{
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.cand-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

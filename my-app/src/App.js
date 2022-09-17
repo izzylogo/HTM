@@ -1,22 +1,35 @@
 import './App.css';
+import Candidate from './pages/candidate/Candidate';
+import Intro from './pages/intro/Intro';
 import Users from './pages/users/Users';
+
+
+function App() {
+  return (
+    <div className="App">
+      {/* <Intro/> */}
+        <br />
+        <br />
+        <br />
+      <Candidate/>
+        <br />
+        <br />
+        <br />
+      {/* <Users/> */}
+    </div>
+  );
+}
+
+export default App;
+
+
+
 // import Navbar from './components/navbar/Navbar';
 // import './components/navbar/Navbar.css'
 // import Overview from './components/overview/Overview';
 // import './components/overview/Overview.css'
 // import Promise from './components/promise/Promise';
 // import './components/promise/Promise.css'
-
-
-function App() {
-  return (
-    <div className="App">
-      <Users/>
-    </div>
-  );
-}
-
-export default App;
 
 // {/* <Navbar/> */}
 // <div className='navbar'>
