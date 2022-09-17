@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  /* padding-bottom: 200px; */
+  background: linear-gradient(90deg, #74c6df, #65b3d0, #0a99cd, #37b4d6, #83c4ea );
+  background-size: 500% 500%;
+  animation: gradent  10s ease infinite;
+}
+
+@keyframes gradent {
+  0%{
+    background-position: 0 50%;
+  }
+  /* 25%{
+      background-position: 100% 50%;
+  } */
+  50%{
+      background-position: 100% 50%;
+  }
+  /* 75%{
+      background-position: 100% 50%;
+  }  */
+  100%{
+      background-position: 0 50%;
+  }
+}
+
