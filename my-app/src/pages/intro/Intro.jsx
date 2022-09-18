@@ -24,7 +24,8 @@ const Intro = () => {
                     <p className="intro-descs">We keeeps a track of the agenda of all the elected candidates and there promises.</p>
                     <p className="intro-desc">Election Campaign Promise Tracker stores all the promises made by elected candidates and stores it in the blockchain for immutable database, so that it won't be changed by anyone</p>
                     <p className="intro-desc">To get started click the button below <br /> <br /> 👇</p>
-                    <div className="intro-connect">Connect Wallet</div>
+                    {/* Please note this is the button to connect to the wallet */}
+                    <div className="intro-connect"> <span>Connect Wallet</span> </div>
                 </div>
                 <div className="intro-right">
                     <div className="intro-tab">
@@ -47,6 +48,7 @@ const Intro = () => {
                             Blockchain
                         </div>
                     </div>
+                    {/* Logos */}
                     <div className="partner-logo">
                         <img src={poly} alt="polygon logo" className='p-logo'/>
                         <img src={htm} alt="HTM" />

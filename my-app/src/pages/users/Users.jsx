@@ -9,7 +9,7 @@ const Users = () => {
         <div className="nav-contain">
           <p className="logo">The Rudras</p>
           <p className="desc">Election campaign promise tracker</p>
-          <p className="connect-wallet">Connect Wallet</p>
+          <p className="connect-wallet">contestants</p>
         </div>
       </div>
       {/* <Overview/> */}
