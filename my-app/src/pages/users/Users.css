@@ -76,14 +76,20 @@
     text-align: left;
 }
 .promise-list{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.711);
     border-radius: 10px;
     padding: 10px 20px;
+    border: 1px solid white;
 }
 .list-head{
     display: flex;
     text-align: left;
     font-weight: 500;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.568);
+}
+.promise-list ul{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.568);
+    padding-bottom: 10px;
 }
 .id{
     flex: 1;
@@ -94,9 +100,6 @@
 .stat{
     flex: 1;
 }
-
-
-
 
 .id{
     flex: 1;

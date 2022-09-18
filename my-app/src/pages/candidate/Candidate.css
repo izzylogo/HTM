@@ -27,6 +27,24 @@ h5{
     font-size: 20px;
     border: none;
     cursor: pointer;
+    animation: shake 1s ease infinite;
+    transition: 1s linear;
+}
+
+.cand-head button:hover{
+    animation: none;
+}
+
+@keyframes bounce {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }
 
 .candet{
