@@ -8,3 +8,45 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.cand-head h4{
+    font-size: 30px;
+}
+.cand-head button{
+    background-color: #120a3f;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+.cand-det{
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+}
+.cand-det h5{
+    font-size: 25px;
+    text-align: left;
+}
+
+.cand-left{
+    flex: 1;
+}
+.cand-det-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.cand-right{
+    flex: 3;
+}
+.prom{
+    display: flex;
+}

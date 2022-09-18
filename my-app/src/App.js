@@ -7,7 +7,7 @@ import Users from './pages/users/Users';
 function App() {
   return (
     <div className="App">
-      {/* <Intro/> */}
+      <Intro/>
         <br />
         <br />
         <br />
@@ -15,7 +15,7 @@ function App() {
         <br />
         <br />
         <br />
-      {/* <Users/> */}
+      <Users/>
     </div>
   );
 }
